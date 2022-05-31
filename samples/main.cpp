@@ -40,7 +40,7 @@ using namespace std;
 using namespace ydlidar;
 
 #if defined(_MSC_VER)
-#pragma comment(lib, "ydlidar_driver.lib")
+#pragma comment(lib, "ydlidar_sdk_gs2.lib")
 #endif
 
 #define DEFAULT_TIMEOUT 2000
