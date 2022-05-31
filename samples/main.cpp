@@ -316,11 +316,11 @@ int main(int argc, char *argv[])
                   1.0 / scan.config.scan_time);
           fflush(stdout);
 
-         for (size_t i=0; i<scan.points.size(); ++i)
-         {
-             printf("%d %.02f %.02f\n", i, scan.points.at(i).angle * 180.0 / M_PI, scan.points.at(i).range);
-         }
-         printf("\n");
+//         for (size_t i=0; i<scan.points.size(); ++i)
+//         {
+//             printf("%d %.02f %.02f\n", i, scan.points.at(i).angle * 180.0 / M_PI, scan.points.at(i).range);
+//         }
+//         printf("\n");
 
           if (haveRecvPort)
           {
